@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>teller side</title>
+    <link rel="stylesheet" href="./css/teller.css" />
+  </head>
+  <body>
+    <div class="out-con">
+      <div class="container">
+        <img
+          src="https://enrollment.uc.edu.ph/Content/ucheader.jpg?d=5/7/2025%2010:58:05%20PM"
+          alt="UC Header"
+        />
+
+        <div class="card">
+          <header>
+            <h1>University of Cebu Main Campus</h1>
+          </header>
+
+          <div class="teller-con">
+            <div class="button-grid">
+              <h3 for="">Teller 1</h3>
+              <span>Currently Serving</span>
+              <h4 id="teller-1" class="current-s">None</h4>
+              <button class="call-btn" id="nextBtn1">Call Next</button>
+              <button class="re-call-btn" id="recallBtn1">Recall</button>
+            </div>
+
+            <div class="button-grid">
+              <h3 for="">Teller 2</h3>
+              <span>Currently Serving</span>
+              <h4 id="teller-2" class="current-s">None</h4>
+              <button class="call-btn" id="nextBtn2">Call Next</button>
+              <button class="re-call-btn" id="recallBtn2">Recall</button>
+            </div>
+
+            <div class="button-grid">
+              <h3 for="">Teller 3</h3>
+              <span>Currently Serving</span>
+              <h4 id="teller-3" class="current-s">None</h4>
+              <button class="call-btn" id="nextBtn3">Call Next</button>
+              <button class="re-call-btn" id="recallBtn3">Recall</button>
+            </div>
+          </div>
+
+          <footer>
+            <p>&copy; Copyright 2025</p>
+          </footer>
+        </div>
+      </div>
+
+      <div id="upcomingList" class="list-con">
+        <!-- <h4 class="upcoming-card">SH-123 P1</h4> -->
+      </div>
+    </div>
+
+    <script src="tellerDisplayScript.js"></script>
+  </body>
+</html>

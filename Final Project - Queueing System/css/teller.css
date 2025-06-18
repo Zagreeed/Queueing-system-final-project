@@ -1,0 +1,164 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #f4f4f4;
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 85vh;
+  background-image: url("ucbg.png");
+  background-size: cover;
+}
+
+.container {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+img {
+  max-width: 20%;
+  max-height: 20%;
+  margin-bottom: 40px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 100px;
+}
+
+.card {
+  background-color: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  margin: 0 auto;
+}
+
+header {
+  background-color: #016be4;
+  color: white;
+  padding: 20px 40px;
+  border-radius: 8px;
+  margin-bottom: 30px;
+}
+
+h1 {
+  font-size: 36px;
+}
+
+h2 {
+  margin-bottom: 30px;
+  font-size: 24px;
+  color: #333;
+}
+
+.button-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-bottom: 30px;
+  width: 20em;
+  border: 2px solid #016be4;
+  padding: 1em;
+  border-radius: 1em;
+}
+
+.button-grid button {
+  padding: 25px;
+  font-size: 20px;
+  cursor: pointer;
+  border: none;
+  border-radius: 12px;
+  transition: background-color 0.3s;
+  color: black;
+  margin-inline: 20px;
+}
+
+.button-grid button:hover {
+  opacity: 0.8;
+}
+
+footer {
+  background-color: #016be4;
+  color: white;
+  padding: 20px;
+  border-radius: 8px;
+  margin-top: 30px;
+}
+
+footer p {
+  font-size: 18px;
+}
+
+.teller-con {
+  padding: 2em;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 2em;
+}
+
+.current-s {
+  padding: 1.4em;
+  border-radius: 1em;
+  border: 1px solid #016be4;
+  font-size: 1.7em;
+  font-weight: bold;
+}
+
+span {
+  font-size: 1.3em;
+  font-weight: bold;
+}
+
+h3 {
+  font-size: 2em;
+}
+
+.out-con {
+  display: flex;
+  height: 100vh;
+  flex-direction: row;
+  /* justify-content: space-between; */
+  margin-left: 23em;
+  height: 100vh;
+}
+
+.list-con {
+  /* height: 100%; */
+  border: 1px solid #007bff;
+  border-radius: 1em;
+  width: 23em;
+  margin-top: 15em;
+  margin-left: 5em;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(50, 50px);
+  gap: 0.5em;
+}
+
+.upcoming-card {
+  box-sizing: border-box;
+  text-align: center;
+  justify-content: center;
+  border: 2px solid #007bff;
+  padding: 0.2em;
+  margin: 0.5em;
+  border-radius: 1em;
+  font-size: 1.2em;
+  font-weight: bold;
+  width: 8em;
+  height: 2em;
+}
+
+.call-btn {
+  background-color: #2ecc71;
+}
+
+.re-call-btn {
+  background-color: #2196f3;
+}

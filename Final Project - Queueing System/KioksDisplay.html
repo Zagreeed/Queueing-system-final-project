@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kioks Display</title>
+    <link rel="stylesheet" href="./css/kiosk.css" />
+  </head>
+  <body>
+    <div class="container">
+      <img
+        src="https://enrollment.uc.edu.ph/Content/ucheader.jpg?d=5/7/2025%2010:58:05%20PM"
+        alt="UC Header"
+      />
+
+      <div class="card">
+        <header>
+          <h1>University of Cebu Main Campus</h1>
+        </header>
+
+        <h2>Please Choose a Transaction</h2>
+
+        <div class="button-grid">
+          <button style="background-color: #fc6c85; color: black" id="clg">
+            College
+          </button>
+          <button style="background-color: #4cbb17; color: black" id="jh">
+            Junior Highschool
+          </button>
+          <button style="background-color: #0047ab; color: black" id="sh">
+            Senior Highschool
+          </button>
+          <button style="background-color: gray; color: black" id="gn">
+            General
+          </button>
+        </div>
+
+        <div class="isPrio">
+          <input id="checkbox" type="checkbox" />
+          <label for="html">Senior/PWD</label>
+        </div>
+
+        <footer>
+          <p>&copy; Copyright 2025</p>
+        </footer>
+
+        <div class="modal" id="modal">
+          <div class="modal-content">
+            <!-- <span class="close-btn" id="closeBtn">&times;</span> -->
+            <h2>Your Number</h2>
+            <p class="userNUm" id="userNum">
+              This modal is controlled using JavaScript.
+            </p>
+            <button id="continue" class="continue">Continue</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="kioksDisplayScript.js"></script>
+  </body>
+</html>
